@@ -1,6 +1,6 @@
 package Assignment;
 
-import java.util.concurrent.TimeUnit; 
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -35,8 +35,7 @@ public class ThirteenthSenario {
 		driver.findElement(By.xpath("//input[@id='gmsStart']")).click();
 
 		Thread.sleep(2000);
-		
-		driver.close();
+
 	}
 
 }

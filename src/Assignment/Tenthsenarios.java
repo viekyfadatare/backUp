@@ -33,6 +33,10 @@ public class Tenthsenarios {
 		driver.findElement(By.xpath("//form/div[4]/div/input")).sendKeys("9834064126");
 
 		driver.findElement(By.xpath("//div[@class='lc-110km49 e1n7ru1l0']")).click();
+		
+		Thread.sleep(5000);
+		
+		driver.close();
 	}
 
 }
