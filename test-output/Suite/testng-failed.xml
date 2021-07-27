@@ -4,11 +4,11 @@
   <test thread-count="5" name="FireFoxTest(failed)" parallel="tests">
     <parameter name="browser" value="Firefox"/>
     <classes>
-      <class name="TESTNG.goolgeOnDifferentBrowseer">
+      <class name="TESTNG.UrbanLLadER">
         <methods>
-          <include name="tc" invocation-numbers="0"/>
+          <include name="tc1" invocation-numbers="0"/>
         </methods>
-      </class> <!-- TESTNG.goolgeOnDifferentBrowseer -->
+      </class> <!-- TESTNG.UrbanLLadER -->
     </classes>
   </test> <!-- FireFoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

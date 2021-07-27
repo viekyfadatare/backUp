@@ -1,6 +1,5 @@
 package TESTNG;
 
-import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -14,10 +13,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+public class UrbanLLadER{
 @Test
-
 @Parameters("browser")
-
 public void tc1(String browser) throws InterruptedException {
 	
 	WebDriver driver = null;
